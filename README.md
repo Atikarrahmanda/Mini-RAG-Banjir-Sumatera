@@ -8,7 +8,7 @@ Natural Language Processing (NLP) untuk membandingkan performa pendekatan **RAG*
 dalam menghasilkan jawaban faktual.
 
 ## 📄 Dataset
-Dataset yang digunakan terdiri dari 50 dokumen teks berita dalam format .txt yang berisi informasi terkait peristiwa banjir di wilayah Sumatera. Setiap dokumen dimuat dan diproses menjadi teks bersih dengan penghapusan karakter yang tidak relevan.
+Dataset pada penelitian ini diperoleh melalui proses scraping terhadap 50 artikel berita berbahasa Indonesia yang membahas kejadian banjir di Sumatera. Artikel-artikel tersebut dikumpulkan dari beberapa portal berita daring dan digunakan sebagai korpus dokumen dalam sistem Retrieval-Augmented Generation (RAG). Dataset yang digunakan dalam format .txt. Setiap dokumen dimuat dan diproses menjadi teks bersih dengan penghapusan karakter yang tidak relevan.
 Dokumen mencakup informasi mengenai:
 - Penyebab banjir
 - Wilayah terdampak
@@ -43,6 +43,20 @@ Evaluasi dilakukan secara **manual (human evaluation)** berdasarkan tiga aspek:
 - Accuracy
 - Completeness
 - Hallucination (analisis kualitatif)
+
+## 🖥️ User Interface (Gradio)
+<img width="2239" height="734" alt="image" src="https://github.com/user-attachments/assets/81f66ee6-1e20-4bf4-8ced-8316d6abec41" />
+Sebagai pelengkap sistem, proyek ini menyediakan **UI berbasis Gradio**
+yang memungkinkan pengguna untuk:
+- Memasukkan pertanyaan secara langsung
+- Memilih mode jawaban (RAG atau Non-RAG)
+- Memilih model embedding
+- Menentukan jumlah chunk hasil retrieval (*k*)
+- Melihat jawaban yang dihasilkan beserta konteks pendukung
+
+AUI ini bertujuan untuk meningkatkan transparansi sistem dan memudahkan eksplorasi
+perilaku model dalam berbagai skenario.
+
 
 Hasil eksperimen menunjukkan bahwa pendekatan **RAG** secara signifikan meningkatkan kualitas jawaban
 dibandingkan **Non-RAG**, dengan embedding **BGE-M3** menghasilkan jawaban yang lebih ringkas dan stabil.
