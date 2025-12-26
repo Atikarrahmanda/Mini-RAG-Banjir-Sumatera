@@ -13,6 +13,7 @@ Dokumen mencakup informasi mengenai:
 - Waktu kejadian
 - Infrastruktur yang rusak
 - Penanganan dan bantuan
+untuk mengakses dataset di : [Link to Data](https://drive.google.com/drive/folders/1jONj41zjcCRYgtoA0gtI1FyZiXgRLtgY?usp=sharing)
 
 ## ⚙️ Metodologi
 Pipeline RAG yang digunakan meliputi:
