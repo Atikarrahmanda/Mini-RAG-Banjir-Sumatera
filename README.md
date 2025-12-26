@@ -1,7 +1,5 @@
 # Mini-RAG-Banjir-Sumatera
 
-# Mini RAG System untuk Informasi Banjir di Sumatera
-
 Repository ini berisi implementasi **Mini Retrieval-Augmented Generation (RAG)** untuk sistem tanya jawab
 berbasis dokumen berita banjir di Sumatera, Indonesia. Proyek ini dikembangkan sebagai bagian dari
 Natural Language Processing (NLP) untuk membandingkan performa pendekatan **RAG** dan **Non-RAG**
