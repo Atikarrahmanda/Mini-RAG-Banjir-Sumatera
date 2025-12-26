@@ -39,16 +39,17 @@ Jumlah chunk hasil retrieval divariasikan dengan **k = 1, 3, dan 5**.
 
 ## 🖥️ User Interface (Gradio)
 <img width="2239" height="734" alt="image" src="https://github.com/user-attachments/assets/81f66ee6-1e20-4bf4-8ced-8316d6abec41" />
-Sebagai pelengkap sistem, proyek ini menyediakan **UI berbasis Gradio**
-yang memungkinkan pengguna untuk:
-- Memasukkan pertanyaan secara langsung
-- Memilih mode jawaban (RAG atau Non-RAG)
-- Memilih model embedding
-- Menentukan jumlah chunk hasil retrieval (*k*)
-- Melihat jawaban yang dihasilkan beserta konteks pendukung
 
-UI ini bertujuan untuk meningkatkan transparansi sistem dan memudahkan eksplorasi
-perilaku model dalam berbagai skenario.
+Sebagai pelengkap sistem, proyek ini menyediakan   **UI berbasis Gradio**   yang memungkinkan pengguna untuk:
+
+- Memasukkan pertanyaan secara langsung  
+- Memilih mode jawaban (**RAG** atau **Non-RAG**)  
+- Memilih model embedding  
+- Menentukan jumlah chunk hasil retrieval (*k*)  
+- Melihat jawaban yang dihasilkan beserta konteks pendukung  
+
+UI ini bertujuan untuk meningkatkan **transparansi sistem**  
+dan memudahkan eksplorasi perilaku model dalam berbagai skenario.
 
 ## 📊 Evaluasi
 Evaluasi dilakukan secara **manual (human evaluation)** berdasarkan tiga aspek:
